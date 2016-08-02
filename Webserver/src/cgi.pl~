@@ -1,0 +1,24 @@
+!#/usr/bin/perl
+
+use warnings;
+use strict;
+
+$requestFile;
+$mimeType;
+$webroot;
+$filename = '../conf/httpd.conf';
+
+sub getServerConfig(){
+$configfile = "../conf/httpd.conf";
+$line;
+open(my $fh, '<encoding(UTF-8)', $filename)
+	or die "Could not open file '$filename' $!";
+	my $row = <$fh>;
+}
+
+
+	
+
+
+
+

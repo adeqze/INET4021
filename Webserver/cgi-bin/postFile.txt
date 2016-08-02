@@ -1,0 +1,53 @@
+POST /api/census/RecordHit HTTP/1.1
+Host: localhost:9001
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://localhost:9001/cgi-bin/index.htm
+Content-Length: 620
+Cookie: _ga=GA1.1.228053343.1458002701; __utma=111872281.228053343.1458002701.1458003489.1458584556.2; __utmz=111872281.1458003489.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+Connection: keep-alive
+
+event=View&data=%7B%22url%22%3A%22%2Fcgi-bin%2Findex.htm%22%2C%22queryString%22%3A%22%22%2C%22viewportInnerHeight%22%3A1175%2C%22viewportInnerWidth%22%3A1253%2C%22screenHeight%22%3A1440%2C%22screenWidth%22%3A3440%2C%22userAgent%22%3A%22Mozilla%2F5.0%20(X11%3B%20Ubuntu%3B%20Linux%20x86_64%3B%20rv%3A45.0)%20Gecko%2F20100101%20Firefox%2F45.0%22%2C%22referrer%22%3A%22%22%2C%22pixelRatio%22%3A1%2C%22localStorageSupported%22%3Afalse%2C%22title%22%3A%22Welcome%22%2C%22collectionId%22%3A%22544c049ce4b0b3ec31a95042%22%2C%22websiteId%22%3A%22544abab2e4b06d805020770c%22%2C%22templateId%22%3A%224fbff70b84aeca67fb3a3c56%22%7DPOST /api/census/RecordHit HTTP/1.1
+Host: localhost:9001
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://localhost:9001/cgi-bin/index.htm
+Content-Length: 544
+Cookie: _ga=GA1.1.228053343.1458002701; __utma=111872281.228053343.1458002701.1458584556.1458606485.3; __utmz=111872281.1458003489.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.1.10.1458606485; __utmc=111872281; __utmt=1
+Connection: keep-alive
+
+event=View&data=%7B%22url%22%3A%22%2Fcgi-bin%2Findex.htm%22%2C%22userAgent%22%3A%22Mozilla%2F5.0%20(X11%3B%20Ubuntu%3B%20Linux%20x86_64%3B%20rv%3A45.0)%20Gecko%2F20100101%20Firefox%2F45.0%22%2C%22title%22%3A%22Welcome%22%2C%22collectionId%22%3A%22544c049ce4b0b3ec31a95042%22%2C%22recordType%22%3A31%2C%22activeMillis%22%3A5690%2C%22viewStartTimeMillis%22%3A1458606484653%2C%22eventLog%22%3A%5B%22focus%22%2C%22mousemove%22%2C%22blur%22%5D%2C%22websiteId%22%3A%22544abab2e4b06d805020770c%22%2C%22templateId%22%3A%224fbff70b84aeca67fb3a3c56%22%7DPOST /api/census/RecordHit HTTP/1.1
+Host: localhost:9001
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://localhost:9001/cgi-bin/index.htm
+Content-Length: 544
+Cookie: _ga=GA1.1.228053343.1458002701; __utma=111872281.228053343.1458002701.1458584556.1458606485.3; __utmz=111872281.1458003489.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.1.10.1458606485; __utmc=111872281; __utmt=1
+Connection: keep-alive
+
+event=View&data=%7B%22url%22%3A%22%2Fcgi-bin%2Findex.htm%22%2C%22userAgent%22%3A%22Mozilla%2F5.0%20(X11%3B%20Ubuntu%3B%20Linux%20x86_64%3B%20rv%3A45.0)%20Gecko%2F20100101%20Firefox%2F45.0%22%2C%22title%22%3A%22Welcome%22%2C%22collectionId%22%3A%22544c049ce4b0b3ec31a95042%22%2C%22recordType%22%3A31%2C%22activeMillis%22%3A3192%2C%22viewStartTimeMillis%22%3A1458606484653%2C%22eventLog%22%3A%5B%22mousemove%22%2C%22focus%22%2C%22blur%22%5D%2C%22websiteId%22%3A%22544abab2e4b06d805020770c%22%2C%22templateId%22%3A%224fbff70b84aeca67fb3a3c56%22%7DPOST /api/census/RecordHit HTTP/1.1
+Host: localhost:9001
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://localhost:9001/cgi-bin/index.htm
+Content-Length: 552
+Cookie: _ga=GA1.1.228053343.1458002701; __utma=111872281.228053343.1458002701.1458584556.1458606485.3; __utmz=111872281.1458003489.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.1.10.1458606485; __utmc=111872281; __utmt=1
+Connection: keep-alive
+
+event=View&data=%7B%22url%22%3A%22%2Fcgi-bin%2Findex.htm%22%2C%22userAgent%22%3A%22Mozilla%2F5.0%20(X11%3B%20Ubuntu%3B%20Linux%20x86_64%3B%20rv%3A45.0)%20Gecko%2F20100101%20Firefox%2F45.0%22%2C%22title%22%3A%22Welcome%22%2C%22collectionId%22%3A%22544c049ce4b0b3ec31a95042%22%2C%22recordType%22%3A31%2C%22activeMillis%22%3A6395%2C%22viewStartTimeMillis%22%3A1458606484653%2C%22eventLog%22%3A%5B%22focus%22%2C%22mousemove%22%2C%22beforeunload%22%5D%2C%22websiteId%22%3A%22544abab2e4b06d805020770c%22%2C%22templateId%22%3A%224fbff70b84aeca67fb3a3c56%22%7D

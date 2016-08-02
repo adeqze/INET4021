@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!-->
+<html class="js" dir="ltr" prefix="og: http://ogp.me/ns#" lang="en"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+<meta name="dcterms.format" content="text/html">
+<meta name="dcterms.type" content="Text">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Photo &amp; Video Library">
+<link rel="shortcut icon" href="https://photo-video.umn.edu/sites/media-library.umn.edu/themes/home_theme/favicon.ico" type="image/vnd.microsoft.icon">
+<meta property="og:url" content="https://photo-video.umn.edu/content/1506263-19th-ave-ramp-4090-12x18">
+<link rel="shortlink" href="https://photo-video.umn.edu/node/14496">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<meta name="dcterms.creator" content="umnphoto">
+<meta name="dcterms.title" content="1506263 19th Ave Ramp 4090 12x18">
+<meta name="dcterms.date" content="2016-03-09T15:00-06:00">
+<meta name="dcterms.identifier" content="https://photo-video.umn.edu/content/1506263-19th-ave-ramp-4090-12x18">
+<meta property="og:title" content="1506263 19th Ave Ramp 4090 12x18">
+<meta name="dcterms.language" content="und">
+<link rel="canonical" href="https://photo-video.umn.edu/content/1506263-19th-ave-ramp-4090-12x18">
+    <title> Photo Library</title>
+        <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cleartype" content="on">
+    <link type="text/css" rel="stylesheet" href="ramp_files/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all">
+<link type="text/css" rel="stylesheet" href="ramp_files/css_ym9ApyPtlGTMZUPnrlSW2X0Tp11XaKYeuBcaiXn7dI4.css" media="all">
+<link type="text/css" rel="stylesheet" href="ramp_files/css_uB0DmB8Un9PZlTkBe2b0mV0XWrIcS5L2hBylped9YWc.css" media="all">
+<link type="text/css" rel="stylesheet" href="ramp_files/css_jv2dZcLMcYFiOy59QbpHNATtatk2McZJFjU1O1g3Ezg.css" media="all">
+<link type="text/css" rel="stylesheet" href="ramp_files/css.css" media="all">
+<link type="text/css" rel="stylesheet" href="ramp_files/font-awesome.css" media="all">
+<link type="text/css" rel="stylesheet" href="ramp_files/css_xhyqmMJ46EzYVybNV5gATKBuSstg0s72qALbtvcl9BA.css" media="all">
+<link type="text/css" rel="stylesheet" href="ramp_files/css_ZifVMnOUwT-GW_YYNb-lNEKH5aNqOqbjHVoKun3MIDU.css" media="all">
+    <script src="ramp_files/analytics.js" async=""></script><script src="ramp_files/js_jpJjaUC0z8JMIyav5oQrYykDRUb64rpaUDpB4Y9aklU.js"></script>
+<script src="ramp_files/js_CwA9uD2kYGc1ubylea-Ul8iN5PWYS40GWBA4ue9Bo4w.js"></script>
+<script src="ramp_files/js_j40pRrFT-aGhTuEMaD7KRvmOX4hvgexTMd8tja8myCQ.js"></script>
+<script src="ramp_files/js_pfElY0RREiS-yjwfehkaDI2W1DrJxQ1fz8vm-cq5Ugc.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-16999842-1", {"cookieDomain":"auto"});ga("send", "pageview");(function ($) {
+  $(document).ready(function () {
+
+      function evtTrack(category, action, label) {
+        ga('send', 'event', category, action, label);
+      }
+
+     $('p.download a').click(function () {
+       var url = $(this).attr('href');
+       var filename = url.substring(url.lastIndexOf('/')+1);
+       evtTrack('Photo Video Library', filename, 'download');
+     });
+
+     $('p.cart-button').click(function () {
+       var url = $(this).attr('data-url');
+       var filename = url.substring(url.lastIndexOf('/')+1);
+       evtTrack('Photo Video Library', filename, 'cart-add');
+     });
+
+    // Search
+    function getUrlVars() {
+      var vars = {};
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+      });
+      return vars;
+    }
+
+    var loc = window.location.href;
+    if(loc.indexOf('media-search?') != -1) {
+      var combine = getUrlVars()['combine'];
+      console.log("s" + combine);
+      evtTrack('Photo Video Library', combine, 'search');
+    }
+  });
+})(jQuery);</script>
+<script src="ramp_files/js_Xy2Kw90GvQshFNVAVjhoVxyjx6LN2bz-N0fndQ8-Nsk.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"home_theme","theme_token":"WZAJzYnyi1CX2671fperAz1rT8ruy0sf8lIJduTxH8E","js":{"profiles\/umncore\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets.js":1,"profiles\/umncore\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets-spotlight.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/script.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/basket-update.js":1,"profiles\/umncore\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/umncore\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/umncore\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/umncore\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/umncore\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"profiles\/umncore\/modules\/panopoly\/panopoly_images\/panopoly-images.js":1,"profiles\/umncore\/modules\/panopoly\/panopoly_admin\/panopoly-admin.js":1,"profiles\/umncore\/modules\/panopoly\/panopoly_magic\/panopoly-magic.js":1,"profiles\/umncore\/modules\/panopoly\/panopoly_theme\/js\/panopoly-accordion.js":1,"profiles\/umncore\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"profiles\/umncore\/libraries\/jquery.imagesloaded\/jquery.imagesloaded.min.js":1,"profiles\/umncore\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/umn_mobile_search.js":1,"sites\/all\/themes\/umn_base_theme\/js\/umn_accordin_custom.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/custom.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/header-responsive.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/footer-collapse.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/linkset-height-adjust.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/smooth-scroll-anchor.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/jquery.scrolldepth\/jquery.scrolldepth.min.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/anchor-fix.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/basil.min.js":1,"sites\/media-library.umn.edu\/themes\/home_theme\/js\/cart.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/umncore\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/umncore\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_admin\/panopoly-admin.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_admin\/panopoly-admin-navbar.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_core\/css\/panopoly-dropbutton.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_magic\/css\/panopoly-magic.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_magic\/css\/panopoly-modal.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_theme\/css\/panopoly-featured.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_theme\/css\/panopoly-accordian.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_theme\/css\/panopoly-layouts.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets-spotlight.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_wysiwyg\/panopoly-wysiwyg.css":1,"profiles\/umncore\/modules\/contrib\/radix_layouts\/radix_layouts.css":1,"modules\/user\/user.css":1,"profiles\/umncore\/modules\/contrib\/views\/css\/views.css":1,"profiles\/umncore\/modules\/contrib\/caption_filter\/caption-filter.css":1,"profiles\/umncore\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/umncore\/modules\/contrib\/panels\/css\/panels.css":1,"https:\/\/fonts.googleapis.com\/css?family=Raleway:200,300,400,500,600":1,"https:\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.5.0\/css\/font-awesome.min.css":1,"profiles\/umncore\/themes\/zen\/system.menus.css":1,"sites\/media-library.umn.edu\/themes\/home_theme\/css\/styles.css":1,"sites\/media-library.umn.edu\/themes\/home_theme\/css\/ur-flexslider.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_images\/panopoly-images.css":1}},"CToolsModal":{"modalSize":{"type":"scale","width":".9","height":".9","addWidth":0,"addHeight":0,"contentRight":25,"contentBottom":75},"modalOptions":{"opacity":".55","background-color":"#FFF"},"animationSpeed":"fast","modalTheme":"CToolsModalDialog","throbberTheme":"CToolsModalThrobber"},"panopoly_magic":{"pane_add_preview_mode":"automatic"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|pdf|phps|png|ppt|ra(m|r)?|sit|tar|tgz|txt|wav|wma|wmv|xls|xml|z|zip"},"urlIsAjaxTrusted":{"http:\/\/google.umn.edu\/search":true}});</script>
+        <!--[if lt IE 9]>
+    <script src="/profiles/umncore/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+        <!--[if lt IE 9]>
+    <script src="//js/selectivizr-min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-14496 node-type-download-image region-content section-content page-panels user-cant-download">
+    <!-- Skip Links: Give your nav and content elements the appropriate ID attributes -->
+    <div id="skipLinks"><a href="#main-nav">Main navigation</a> | <a href="#main-content">Main content</a></div>
+    <!-- BEGIN HEADER -->
+    <header class="umnhf" id="umnhf-h" role="banner">
+      <div class="printer"><div class="left"></div><div class="right"><strong>University of Minnesota</strong><br>http://twin-cities.umn.edu/<br>612-625-5000</div></div>
+      <div class="umnhf" id="umnhf-h-mast">
+        <a class="umnhf" id="umnhf-h-logo" href="http://twin-cities.umn.edu/"><span>Go to the U of M home page</span></a>
+        <ul class="umnhf" id="umnhf-h-ql">
+          <li><a href="http://search.umn.edu/">Search UMN</a></li>
+          <li><a href="http://onestop.umn.edu/">One Stop</a></li>
+          <li class="umnhf"><a href="https://www.myu.umn.edu/">MyU <span></span>: For Students, Faculty, and Staff</a></li>
+        </ul>
+    </div></header>
+    <!-- END HEADER -->
+
+    <main id="umn-main" role="main">
+            
+
+  <div id="sub-header-site-name">
+    <div class="panel-pane pane-token pane-variable-site-name">
+  
+  <h1 id="site-name"><a href="https://photo-video.umn.edu/">Photo &amp; Video Library</a></h1>
+
+  
+  </div>
+  </div>
+  <div id="header-wrapper-full-width" class="clearfix">
+    <div id="header-wrapper-internal">
+      <div id="sub-header" class="clearfix">
+        <nav id="main-menu" role="navigation" tabindex="-1"><div class="panel-pane pane-block pane-menu-block-umn-customizations-level-one primary_navigation_one" id="main-menu">
+  
+      
+  
+  <div class="menu-block-wrapper menu-block-umn_customizations-level-one menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-leaf first last leaf menu-mlid-7451"><a href="https://photo-video.umn.edu/media-search" title="" class="menu__link">All Photos and Videos</a></li>
+</ul></div>
+
+  
+  </div>
+</nav>      </div>
+          </div>
+  </div>
+  <div id="full-page-wrapper">
+    <div id="page">
+            <div id="content" class="column" role="main">
+        <div class="panel-pane pane-pane-messages">
+  
+      
+  
+  
+
+
+  
+  </div>
+<div class="panel-pane pane-page-content">
+  
+      
+  
+  
+
+
+<div class="node node-download-image">
+	<div id="asset-preview">
+		<img src="ramp_files/1506263_19th_ave_ramp_4090_12x18.jpg" alt="19th Street Ramp">
+	</div>
+	<div id="asset-info">
+					<h2>19th Street Ramp</h2>
+							<div class="category"><a href="https://photo-video.umn.edu/media-search/?combine=&amp;shs_term_node_tid_depth=501">Buildings</a> &gt; <a href="https://photo-video.umn.edu/media-search/?combine=&amp;shs_term_node_tid_depth=511">West Bank Buildings</a>			</div>
+							<p class="download"><strong><a href="https://photo-video.umn.edu/saml_login">Log in to Download</a></strong></p>
+				<table>
+			<tbody>
+									<tr>
+						<th scope="row">File Name</th>
+						<td>1506263_19th_ave_ramp_4090_12x18.jpg</td>
+					</tr>
+								<tr>
+					<th scope="row">File Size</th>
+					<td>12.63 MB</td>
+				</tr>
+				<tr>
+					<th scope="row">File Type</th>
+					<td>jpg</td>
+				</tr>
+				<tr>
+					<th scope="row">Dimensions</th>
+					<td>5400x3604</td>
+				</tr>
+															<tr>
+						<th scope="row">Photographer</th>
+						<td>Patrick O'Leary</td>
+						</tr>
+												</tbody>
+		</table>
+			<p>Email <a href="mailto:umnphoto@umn.edu">umnphoto@umn.edu</a> for a larger size image.</p>	</div>
+</div>
+
+  
+  </div>
+      </div>
+    </div>
+    <div id="footer-wrapper">
+          </div>
+  </div>
+      <script src="ramp_files/js_29qYXJz8NLGg8Aomg-RZPjJcj9yEdEst1BMZ9gZbs-4.js"></script>
+<script src="ramp_files/js_9TgAoKh-30Y1z5BDrpg5Qoupw0hqGx-0Cu6I_21mlJU.js"></script>
+    </main>
+
+    <!-- BEGIN UofM FOOTER -->
+    <div id="login-advisory"><p><em>Access to download images is restricted to faculty, staff, departmental, and sponsored accounts.</em></p></div>
+    <footer id="umnhf-f" class="umnhf" role="contentinfo">
+      <nav id="umnhf-f-myu">
+        <h3 class="umnhf-f-title visually-hidden">For Students, Faculty, and Staff</h3>
+        <ul>
+          <li><a href="http://onestop.umn.edu/">One Stop</a></li>
+          <li><a href="https://www.myu.umn.edu/">My U <span></span></a></li>
+        </ul>
+      </nav>
+      <small>© <span id="cdate">2016</span> Regents of the University of
+ Minnesota. All rights reserved. The University of Minnesota is an equal
+ opportunity educator and employer. <a href="http://privacy.umn.edu/">Privacy Statement</a></small>
+      <!-- Optional last updated link-->
+    </footer>
+    <!-- END UofM FOOTER -->
+  
+
+</body></html>
